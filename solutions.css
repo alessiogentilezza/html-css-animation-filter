@@ -1,10 +1,10 @@
 .ex-1-square:hover {
-    transition: all 5s ease 0s;
+    transition: all 3s ease 0s;
     background-color: red;
 }
 
 .ex-2-square:hover {
-    transition: all 5s ease 0s;
+    transition: all 3s ease 0s;
     width: 100%;
 
 }
@@ -12,4 +12,25 @@
 .ex-3-square:hover {
     transition: all 3s ease 0s;
     border-radius: 50%;
+}
+
+.ex-4-square:hover {
+    transition: all 3s ease 0s;
+    opacity: 0;
+    /* display: none; */
+}
+
+.ex-5-square:hover {
+    transition: all 3s ease 0s;
+    transform: scale(2);
+}
+
+.ex-5-square:active {
+    transition: all 3s ease 0s;
+    transform: scale(0.5);
+}
+
+
+#saturate:hover {
+    filter: saturate(0);
 }
