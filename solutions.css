@@ -58,14 +58,14 @@
 }
 
 
-#ruota-sx {
-    animation-name: ruota-sx;
+#antiorario {
+    animation-name: antiorario;
     animation-duration: 1000ms;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
 
-@keyframes ruota-sx {
+@keyframes antiorario {
     from {
         transform: rotate(360deg);
     }
@@ -73,3 +73,34 @@
     to {
         transform: rotate(0deg);
     }
+}
+
+#orario:hover {
+    animation-name: orario;
+    animation-duration: 1000ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes orario {
+
+    0% {
+        transform: rotate(0deg)
+    }
+
+    25% {
+        transform: rotate(90deg)
+    }
+
+    50% {
+        transform: rotate(180deg)
+    }
+
+    75% {
+        transform: rotate(270deg)
+    }
+
+    100% {
+        transform: rotate(-270deg)
+    }
+}
