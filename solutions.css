@@ -34,8 +34,11 @@
     /* display: none; */
 }
 
-.ex-5-square:hover {
+.ex-5-square {
     transition: all 3s;
+}
+.ex-5-square:hover {
+    transform: scale(1.5);
 }
 
 .ex-5-square:active {
