@@ -79,7 +79,7 @@
 
 .ex-10-icon {
     animation-name: antiorario;
-    animation-duration: 1000ms;
+    animation-duration: 1s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
@@ -94,11 +94,10 @@
     }
 }
 
-#orario:hover {
+.ex-11-icon:hover {
     animation-name: orario;
-    animation-duration: 1000ms;
+    animation-duration: 1s;
     animation-timing-function: linear;
-    animation-iteration-count: infinite;
 }
 
 @keyframes orario {
@@ -120,7 +119,7 @@
     }
 
     100% {
-        transform: rotate(-270deg)
+        transform: rotate(0deg)
     }
 }
 
